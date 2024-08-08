@@ -23,8 +23,8 @@
 
     - name: Copiar archivos
       copy:
-        src: /path/to/local/file.txt
-        dest: /home/vagrant/file.txt
+        src: /home/vagrant/archivo.txt
+        dest: /home/vagrant/vagrantfilecopy/archivo.txt
 
     - name: Crear carpetas
       file:
